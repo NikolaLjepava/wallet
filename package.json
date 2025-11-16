@@ -1,0 +1,23 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "description": "wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolaLjepava/wallet.git"
+  },
+  "author": "NikolaLjepava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikolaLjepava/wallet/issues"
+  },
+  "homepage": "https://github.com/NikolaLjepava/wallet#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/pg-promise": "^5.4.3"
+  }
+}
