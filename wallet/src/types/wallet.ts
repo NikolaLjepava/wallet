@@ -19,12 +19,12 @@ export interface Player {
   }
   
   export interface Transaction {
-    id: string;
-    player_id: string;
-    session_id: string;
-    type: 'DEPOSIT' | 'WITHDRAW';
-    amount: number;
-    balance_before: number;
-    balance_after: number;
-    created_at: Date;
-  }
+  id: string;
+  player_id: string;
+  session_id: string;
+  type: 'DEPOSIT' | 'WITHDRAW';
+  amount: number;
+  balance_before: number;
+  balance_after: number;
+  created_at: Date;
+}

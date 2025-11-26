@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/NikolaLjepava/wallet#readme",
   "devDependencies": {
+    "@types/express": "^5.0.5",
     "@types/node": "^24.10.1",
     "@types/pg-promise": "^5.4.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
   }
 }
