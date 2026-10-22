@@ -4,6 +4,7 @@ node_modules/
 # Environment files  
 .env
 .env.local
+.env.*
 
 # Build output
 dist/
@@ -11,3 +12,5 @@ build/
 
 # Logs
 *.log
+
+coverage/
